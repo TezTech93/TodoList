@@ -1,0 +1,87 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden !important;
+  background: #030303;
+  color: #ffee;
+  font-family: "Chocolate Classical Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.main-container {
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.header-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 32px;
+  background-color: #add8e6;
+  width: 80%;
+  margin-left:10%;
+  color: #ffee;
+}
+
+.todo-container {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 80%;
+  margin-left: 10%;
+  border: solid 4px #add8e6;
+  overflow-y: scroll;
+}
+
+.button-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.list-group-item {
+  display: block;
+  height: 36px ;
+  padding: 4px;
+  margin-bottom: 12px;
+}
+
+.todo-row {
+  display: flex;
+}
+
+.todo-row> h4{
+  width:100px;
+  margin-left: 24px;
+}
+
+.todo-row> input {
+  margin-right: 12px;
+}
+
+#submitBtn {
+  width: 50%;
+}
+
+#todo{
+  margin-top: 16px;
+  width: 100vw; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#todoInput{
+  border: 1px solid #add8e6;
+}
+
+#addBtn{
+  background-color: #add8e6;
+}
